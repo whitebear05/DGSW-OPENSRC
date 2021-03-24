@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div.stop-dragging
+{
+  -ms-user-select: none; 
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.opendrag {
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+
+/*-----------------this is made by whitebear------------------*/
+
+body{
+    background-color: #6339ff;
+
+    -webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.header{
+    background-color:white;
+    width:auto;
+    height:auto;
+}
+
+.container{
+    width:980px;
+    margin:auto;
+}
+
+.logo{
+    float: left;
+    margin-right: 40px;
+}
+
+.logo img{
+    display:block;
+}
+
+.title{
+    float: left;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+h1{
+    color:#6339ff;
+    font-size:30px;
+}
+
+.menu{
+    float: left;
+}
+
+.menu-item{
+    float: left;
+    padding: 30px;
+    font-weight: 600;
+    color:rgb(99, 99, 99);
+}
+
+.menu-item:hover{
+    transition-duration:1s;
+    color:#6339ff;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
