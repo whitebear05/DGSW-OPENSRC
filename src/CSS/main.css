@@ -58,11 +58,16 @@ div.stop-dragging
 	user-select: text;
 }
 
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
 /*-----------------this is made by whitebear------------------*/
 
 body{
-    background-color: #6339ff;
-
     -webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -73,7 +78,7 @@ a{
     text-decoration:none;
 }
 
-.header{
+header{
     background-color:white;
     width:auto;
     height:auto;
@@ -120,8 +125,10 @@ h1{
     color:#6339ff;
 }
 
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
+main{
+    background-color: #6339ff;
+}
+
+footer{
+    background-color:rgb(207, 207, 207);
 }
