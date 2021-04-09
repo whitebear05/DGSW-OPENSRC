@@ -63,6 +63,10 @@ h1{
     color:#6339ff;
 }
 
+#selected-menu {
+    color: #6339ff;
+}
+
 main{
     background-color: #6339ff;
     color: #FFFFFF;
@@ -92,13 +96,14 @@ footer{
     padding-left: 1%;
     border-right: 1px solid rgb(61, 61, 61);
 }
-
+ 
 .footer-content:hover {
     text-decoration: underline;
 }
 
 #footer-exception {
     border-right: none;
+    cursor:text;
 }
 
 #footer-exception:hover {
