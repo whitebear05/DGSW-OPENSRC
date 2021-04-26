@@ -1,4 +1,4 @@
-# DGSW-OPENSRC | 대소고 
+# DGSW-OPENSRC |대소고 오픈소스
 
 - Share your sources and get feedback
 
